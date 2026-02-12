@@ -2,7 +2,9 @@ img {
     width: 20%;
     height: auto;
 }
-main {
+main, header, footer {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
